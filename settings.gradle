@@ -1,0 +1,12 @@
+//include ':recyclerview3'
+include ':recyclerview2'
+include ':simplemvpdatabinding'
+include ':databinding_excercise'
+include ':fragmentbindingtest'
+include ':databinding_started_two'
+include ':databinding_started_one'
+include ':databindinggettingstarted'
+include ':sample'
+include ':databinding'
+include ':recyclerview'
+rootProject.name = "My Application"

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="iMainActivity"
+            type="com.commax.fragmentbindingtest.IMainActivity"/>
+        <variable
+            name="MainFragment"
+            type="com.commax.fragmentbindingtest.MainFragment" />
+    </data>
+
+
+
+        <Button
+            android:onClick="@{MainFragment.bindingTest}"
+            android:id="@+id/MainButton"
+            android:text="MainFrag"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+
+</layout>
